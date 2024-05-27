@@ -1,0 +1,107 @@
+@media (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    html{
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .top-con{
+        position: relative;
+        z-index: 2;
+    }
+    .top-con .logo h5{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top-con .logo h5 i{
+        display: block;
+    }
+    .top-con .menu ul{
+        display: none;
+    }
+    .top-con .menu ul li{
+        width: 100%;
+        text-align: left;
+    }
+    .top-con .menu ul li:hover{
+        background: #000;
+    }
+    .top-con .icon-bx{
+        justify-content: center;
+    }
+    /* top con end here */
+
+    .introBox{
+        height: 100%;
+        padding: 0px 0px;
+    }
+    .introBox .row{
+        flex-direction: column-reverse;
+    }
+    .introBx .text-bx h1{
+        font-size: 2.5em;
+        margin: 15px 0px;
+    }
+    .introBx .text-bx h3{
+        font-size: 1.2em;
+        
+    }
+    .introBx .text-bx .btn-bx{
+        display: grid;
+        justify-items: start;
+    }
+
+    .introBx .iconBx{
+        display: none;
+    }
+    
+    .introBx .imgBox::before{
+        clip-path: circle(150px at 50% 40%);
+    }
+
+    /* introBx end here */
+
+    .midCon{
+        padding: 10px 10px;
+    }
+    .midCon .cardHolder{
+    padding: 0px;
+    margin: 10px 0px;
+    }
+
+    /* midCon end here */
+
+    .aboutBx{
+        padding: 0px 10px;
+        overflow: hidden;
+    }
+    .aboutBx .container{
+        padding: 10px;
+    }
+
+    .aboutBx .formBx, .aboutBx .text-bx{
+        padding: 20px 10px;
+    }
+    .aboutBx .text-bx{
+        border-bottom: 1px solid white;
+    }
+    /* aboutBx end here */
+    
+    
+    .cardBox ul{
+        display: block;
+        text-align: center;
+    }
+    .cardBox ul li{
+        width: 45%;
+        display: inline-block;
+        margin: 5px 5px;
+    }
+    .cardBox ul li .back p{
+        display: none;
+    }
+
+}
