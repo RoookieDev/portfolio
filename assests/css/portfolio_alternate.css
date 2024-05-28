@@ -3,6 +3,10 @@
     font-family: 'poppins',sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
